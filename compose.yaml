@@ -1,0 +1,12 @@
+# Intentionally old images: a TrueSource Viewer demo, do not run.
+services:
+  search:
+    image: bitnami/elasticsearch:7.10.2
+  dashboards:
+    image: bitnami/kibana:7.10.2
+  cache:
+    image: bitnami/redis:6.2.6
+  queue:
+    image: bitnami/rabbitmq:3.8.9
+  proxy:
+    image: bitnami/nginx:1.21.6
